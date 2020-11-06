@@ -1,13 +1,49 @@
+:root {
+  --primary-color: hsl(231, 69%, 60%);
+  --secondary-color: hsl(0, 94%, 66%);
+  --neutral-color: hsl(229, 8%, 60%);
+  --neutral-color-2: hsl(229, 31%, 21%);
+  --font-family: "Rubik", sans-serif;
+  --font-heading: 2rem;
+  --font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: var(--font-size);
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-family);
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  color: var(--neutral-color-2);
+}
+a,
+p {
+  color: var(--neutral-color);
+}
+li {
+  list-style: none;
+}
+/* UTILITIES */
+.u-text-center {
+  text-align: center;
+}
+/* COMPONENTS */
