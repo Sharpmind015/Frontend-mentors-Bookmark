@@ -57,7 +57,9 @@ const Footer = () => {
         >
           Challenge by Frontend Mentor
         </a>
-        <a href="index.html">Coded by Deji</a>
+        <a href="https://github.com/Sharpmind015/Frontend-mentors-Bookmark.git">
+          Coded by Deji
+        </a>
       </div>
     </footer>
   );

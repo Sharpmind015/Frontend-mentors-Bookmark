@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from "react";
 import "./contact.css";
 import errorImg from "../../assets/icon-error.svg";
